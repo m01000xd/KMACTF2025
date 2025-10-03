@@ -705,5 +705,8 @@ if 1 <= pad <= 16 and pt.endswith(bytes([pad])*pad):
     pt = pt[:-pad]
 
 print("Flag:", pt.decode('utf-8', errors='replace'))
-#KMACTF{97baa5e0a73cba5e114e5d4024dac31a1d6eb7d8964c4f669389482cebee94db}
+```
+
+```python3
+Flag:KMACTF{97baa5e0a73cba5e114e5d4024dac31a1d6eb7d8964c4f669389482cebee94db}
 ```
